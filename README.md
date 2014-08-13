@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/clockwise.svg)](http://badge.fury.io/rb/clockwise)
+
 #Clockwise
 
 Ruby integer class extension. Adds methods to "do something after x 'units of time'", do something for each segment of x unit of time, etc...
