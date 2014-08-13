@@ -17,6 +17,8 @@ Some usage examples:
     The time is: 2014-08-05 16:03:08 +0100
 
     5.hours.each_second { puts "A second has passed!" }
+    A second has passed!
+    A second has passed!
     ...
     A second has passed!
 
