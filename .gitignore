@@ -1,2 +1,5 @@
 *.bak
 *.html
+.bundle/
+Gemfile.lock
+vendor/
