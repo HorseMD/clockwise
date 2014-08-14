@@ -9,34 +9,34 @@ It also adds basic time arithmetic, allowing very readable time calculation (e.g
 
 Some usage examples:
 
-    ```ruby
-    5.minutes.each do |minute|
-        puts "The time is: #{Time.now}"
-    end
-    The time is: 2014-08-05 15:59:08 +0100
-    The time is: 2014-08-05 16:00:08 +0100
-    The time is: 2014-08-05 16:01:08 +0100
-    The time is: 2014-08-05 16:02:08 +0100
-    The time is: 2014-08-05 16:03:08 +0100
+```ruby
+5.minutes.each do |minute|
+    puts "The time is: #{Time.now}"
+end
+The time is: 2014-08-05 15:59:08 +0100
+The time is: 2014-08-05 16:00:08 +0100
+The time is: 2014-08-05 16:01:08 +0100
+The time is: 2014-08-05 16:02:08 +0100
+The time is: 2014-08-05 16:03:08 +0100
 
-    5.hours.each_second { puts "A second has passed!" }
-    A second has passed!
-    A second has passed!
-    ...
-    A second has passed!
+5.hours.each_second { puts "A second has passed!" }
+A second has passed!
+A second has passed!
+...
+A second has passed!
 
-    2.hours.later { puts "Two hours have passed!" }
-    "Two hours have passed!"
+2.hours.later { puts "Two hours have passed!" }
+"Two hours have passed!"
 
-    5.minutes.and 2.seconds
-     => 302
+5.minutes.and 2.seconds
+ => 302
 
-    120.seconds == 2.minutes
-     => true
+120.seconds == 2.minutes
+ => true
 
-    Time.now + 5 hours
-     => 2014-08-05 20:55:23 +0100
-     ```
+Time.now + 5 hours
+ => 2014-08-05 20:55:23 +0100
+ ```
 
 ##Units of Time
 
