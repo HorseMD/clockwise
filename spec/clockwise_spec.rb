@@ -35,4 +35,9 @@ RSpec.describe "Integer" do
     expect(120.seconds).to equal(2.minutes)
     expect(12.months).to equal(1.years)
   end
+
+  it "should add time with 'and'" do
+    expect(2.hours.and 5.minutes).to equal(7500)
+    expect(4.days.and 11.hours).to equal(385200)
+  end
 end

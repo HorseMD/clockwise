@@ -40,6 +40,10 @@ class Integer
     TimeUnit.new(self).send("each_#{appropriate_unit.to_s}", &block)
   end
 
+  def and time
+    self + time
+  end
+
   def method_missing(name, *args, &block)
     if name.to_s.include? "each_"
       TimeUnit.new(self).send("#{name}", &block)
