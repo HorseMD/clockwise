@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/clockwise.svg)](http://badge.fury.io/rb/clockwise)[![Build Status](https://travis-ci.org/HorseMD/clockwise.svg?branch=master)](https://travis-ci.org/HorseMD/clockwise)
+[![Gem Version](https://badge.fury.io/rb/clockwise.svg)](http://badge.fury.io/rb/clockwise) [![Build Status](https://travis-ci.org/HorseMD/clockwise.svg?branch=master)](https://travis-ci.org/HorseMD/clockwise)
 
 #Clockwise
 
