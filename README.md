@@ -9,6 +9,7 @@ It also adds basic time arithmetic, allowing very readable time calculation (e.g
 
 Some usage examples:
 
+    ```ruby
     5.minutes.each do |minute|
         puts "The time is: #{Time.now}"
     end
@@ -35,6 +36,7 @@ Some usage examples:
 
     Time.now + 5 hours
      => 2014-08-05 20:55:23 +0100
+     ```
 
 ##Units of Time
 
