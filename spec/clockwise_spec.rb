@@ -1,4 +1,6 @@
 require File.dirname(__FILE__) + '/../lib/clockwise'
+require 'coveralls'
+Coveralls.wear!
 
 RSpec.describe "Integer" do
   it "should respond to the new methods" do
