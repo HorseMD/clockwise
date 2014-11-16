@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.description = 'Integer class extension with methods to help with time manipulation.'
   s.files = [
     'lib/clockwise.rb',
-    'lib/timeunit.rb',
+    'lib/time_unit.rb',
     'README.md',
     'clockwise.gemspec'
   ]

@@ -1,5 +1,6 @@
 *.bak
 *.html
+*.gem
 .bundle/
 Gemfile.lock
 vendor/
