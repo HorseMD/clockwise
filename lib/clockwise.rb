@@ -1,4 +1,4 @@
-require './lib/time_unit.rb'
+require_relative 'time_unit'
 
 class Integer
   def seconds
