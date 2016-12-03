@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name = 'clockwise'
   s.email = 'alightedness@gmail.com'
   s.author = 'HorseMD'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.date = Time.now.strftime("%Y-%m-%d")
 
   s.summary = 'Adds time methods to Integer class'
